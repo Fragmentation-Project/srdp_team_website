@@ -2,12 +2,22 @@ project:
   type: website
 
 website:
-  title: "srdp_team_website"
+  title: "SRDP Team Website"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    pinned: true
+    right:
+      - text: "Home"
+        file: index.qmd
+      - text: "Dataset"
+        file: datasets/index.qmd
+
+    sidebar:
+      - title: "Datasets"
+        style: "docked"
+        background: light
+        contents:
+            - text: "Demands"
+              file: datasets/demands.qmd
 
 format:
   html:
@@ -15,5 +25,5 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
+editor: source
 

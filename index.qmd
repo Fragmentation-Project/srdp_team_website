@@ -1,11 +1,6 @@
 ---
-title: "srdp_team_website"
+title: "Strategies of Resistence Data Project"
+sidebar: false
+toc: false
+page-layout: full
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
