@@ -1,6 +1,7 @@
 ---
 title: "Demands"
 toc: true
+sidebar: true
 ---
 
 ```{r, include = FALSE}
@@ -29,7 +30,7 @@ library(fontawesome)
 
 3.  In [Nexis Uni](https://advance-lexis-com.proxy-um.researchport.umd.edu/bisacademicresearchhome?crid=de8a818a-316f-426e-a73f-b397ca2d4402&pdmfid=1516831&pdisurlapi=true) search for the following (adjusted for your organisation):
 
-> (organisation name OR alias) AND country AND (demand OR "self determination" OR independen\* OR separat\* OR secession OR secede)
+> (organisation name OR alias) AND country AND (demand OR "self determination" OR independen\* OR separat\* OR secession OR secede OR autonom\* OR federal\*)
 
 4.  Using Nexis Uni's sidebar, filter the timeline for your year of interest.[^1]
 
