@@ -13,7 +13,6 @@ website:
 
     sidebar:
       - title: "Datasets"
-        style: "docked"
         background: light
         contents:
             - text: "Demands"
