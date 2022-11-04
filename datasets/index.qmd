@@ -1,6 +1,5 @@
 ---
-title: "Overview"
-sidebar: true
+title: "Datasets"
 ---
 
 ```{r, include = FALSE}
@@ -9,9 +8,9 @@ library(fontawesome)
 
 ## Demands
 
-## Data collection
+### Data collection
 
-### Quick links
+#### Quick links
 
 `r fa("database")`   [Dataset (in progress)](https://docs.google.com/spreadsheets/d/10xqTzgD1O-lVC_tMKyk0pjQNIpTeykhlOj7VllvOfx4/edit#gid=0)
 
@@ -21,7 +20,7 @@ library(fontawesome)
 
 `r fa("slack")`   [Slack channel](https://fragprojectco-xiy4179.slack.com/archives/C03AKSE5JVD)
 
-### Process
+#### Process
 
 1.  Open the [to do list](https://docs.google.com/spreadsheets/d/1OrEXud6ZejbCzY_-1AkLnMoq3niH-_qyr5CxTzM5olk/edit#gid=0) and see which organisations and years have been assigned to you.
 
@@ -87,7 +86,7 @@ library(fontawesome)
     
     9.  Update the to do list to mark this organisation-year as `done`. 
     
-### Troubleshooting
+#### Troubleshooting
 
 *If you cannot find news articles mentioning the SD organisation in the year it is listed as having started:*
 
@@ -109,9 +108,9 @@ library(fontawesome)
 
 5.    Add `kgcunnin` as an assignee.
 
-## Development
+### Development
 
-### Quick links
+#### Quick links
 
 `r fa("laptop")`   [Collection app Github repository](https://github.com/Fragmentation-Project/SRDP_demands_app)
 
