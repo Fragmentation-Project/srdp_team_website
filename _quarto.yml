@@ -9,15 +9,15 @@ website:
     right:
       - text: "Home"
         file: index.qmd
-      - text: "Dataset"
-        file: datasets/index.qmd
+      - text: "Datasets"
+        file: /datasets/index.qmd
 
     sidebar:
       - title: "Datasets"
         background: light
         contents:
             - text: "Demands"
-              file: datasets/demands.qmd
+              file: /datasets/demands.qmd
 
 format:
   html:
