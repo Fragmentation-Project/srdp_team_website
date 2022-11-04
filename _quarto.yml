@@ -14,10 +14,10 @@ website:
 
     sidebar:
       - title: "Datasets"
+        style: "docked"
         background: light
         contents:
-            - text: "Demands"
-              file: datasets/demands.qmd
+            - datasets/demands.qmd
 
 format:
   html:
