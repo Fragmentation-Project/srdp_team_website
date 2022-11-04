@@ -1,5 +1,6 @@
 ---
 title: "Datasets"
+toc-depth: 3
 ---
 
 ```{r, include = FALSE}
