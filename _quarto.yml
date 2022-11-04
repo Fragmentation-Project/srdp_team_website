@@ -13,10 +13,13 @@ website:
         file: datasets/index.qmd
 
     sidebar:
-      - title: "Datasets"
+      - id: datasets
+        title: "Datasets"
         style: "docked"
         background: light
+        collapse-level: 2
         contents:
+            - datasets/index.qmd
             - datasets/demands.qmd
 
 format:

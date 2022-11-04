@@ -3,4 +3,116 @@ title: "Overview"
 sidebar: true
 ---
 
-Hello world!
+```{r, include = FALSE}
+library(fontawesome)
+```
+
+## Overview
+
+## Data collection
+
+### Quick links
+
+`r fa("database")`   [Dataset (in progress)](https://docs.google.com/spreadsheets/d/10xqTzgD1O-lVC_tMKyk0pjQNIpTeykhlOj7VllvOfx4/edit#gid=0)
+
+`r fa("laptop")`   [Collection app](https://hgoers.shinyapps.io/SRDP_demands_app/)
+
+`r fa("square-check")`   [To do list](https://docs.google.com/spreadsheets/d/1OrEXud6ZejbCzY_-1AkLnMoq3niH-_qyr5CxTzM5olk/edit#gid=0)
+
+`r fa("slack")`   [Slack channel](https://fragprojectco-xiy4179.slack.com/archives/C03AKSE5JVD)
+
+### Process
+
+1.  Open the [to do list](https://docs.google.com/spreadsheets/d/1OrEXud6ZejbCzY_-1AkLnMoq3niH-_qyr5CxTzM5olk/edit#gid=0) and see which organisations and years have been assigned to you.
+
+2.  Open the [data collection app](https://hgoers.shinyapps.io/SRDP_demands_app/) and filter for your organisation.
+
+3.  In [Nexis Uni](https://advance-lexis-com.proxy-um.researchport.umd.edu/bisacademicresearchhome?crid=de8a818a-316f-426e-a73f-b397ca2d4402&pdmfid=1516831&pdisurlapi=true) search for the following (adjusted for your organisation):
+
+> (organisation name OR alias) AND country AND (demand OR "self determination" OR independen\* OR separat\* OR secession OR secede OR autonom\* OR federal\*)
+
+4.  Using Nexis Uni's sidebar, filter the timeline for your year of interest.[^1]
+
+[^1]: Note: this filters your results for articles that were published in that year. It is possible that an SD organisation's demands will be reported in later years. Use your discretion with this filter. It is designed to make this task more manageable.
+
+5.  Identify relevant news articles to read for further detail.
+
+6.  Identify demands made by the SD organisation. You need to find evidence that the organisation itself made a demand that falls into one of our broad categories. It is not sufficient for the news article to describe the organisation as separatist.
+
+7.  Once you identify a demand made by the SD organisation, head back to the data collection app.
+
+8.  Check whether the demand is already listed.
+
+    1.  **If yes:**
+
+        1.  *And the information is correct:*
+
+            1.  Update the to do list to mark that organisation-year as `done`.
+
+        2.  *And the information is incorrect:*
+
+            1.  Click the green `+` button to add more information.
+
+            2.  **Are you editing a previously coded demand?** Yes.
+
+            3.  **ID of demand to be edited.** Located in the demand table above. Copy and paste it into this box.
+
+    2.  **If no:**
+
+        1. Click the green `+` button to add more information.
+
+        2. **Are you editing a previously coded demand?** No.
+
+9.  Complete the form:
+
+    1.  **Demand.** Select the correct demand type from the drop-down menu. You can see a definition of each demand type next to the box.
+
+    2.  **Year demanded.** This defaults to the start year for the SD organisation listed in the SRDP database. Change it, if needed.
+
+    3.  **Source.** Add the Nexis Uni permlink from the article that lists the demand.
+
+    4.  Go back to Nexis Uni and search for your organisation and the specific demand they made. Remove the timeline filter.
+
+    5.  **Year rescinded.** Identify the year that the SD organisation rescinded the demand, if applicable. There are two scenarios under which this occurs:
+
+        1.  The SD organisation explicitly rescinds the demand. This may occur as part of a deal with the government. Add the year in which the demand was rescinded.
+
+        2.  The SD organisation does not demand that concession for two consecutive years. Add the year after the demand was last made.
+
+    6.  **Source.** Add the Nexis Uni permlink from the article that lists the demand as being rescinded or where the demand was last mentioned. Leave blank if the SD organisation has not rescinded the demand. 
+
+    7.  **Description.** Provide a brief description of the demand made by the SD organisation.
+
+    8.  Click `submit`.
+    
+    9.  Update the to do list to mark this organisation-year as `done`. 
+    
+### Troubleshooting
+
+*If you cannot find news articles mentioning the SD organisation in the year it is listed as having started:*
+
+1.    [Create an issue](https://github.com/Fragmentation-Project/SRDP_data/issues) with the title: "Orgs: no evidence found of ORGANISATION until YEAR".
+
+2.    Add your Nexis Uni search string into the comments section.  
+
+3.    Add `kgcunnin` as an assignee.
+
+*If you find news articles mentioning the SD organisation's demands in years earlier than they are currently listed as having started:*
+
+1.    Complete the demands form setting the year to the earliest year you can (the year the organisation is listed in SRDP as having started).
+
+2.    In the description, add a note that the demands were made earlier and add the year. 
+
+3.    [Create an issue](https://github.com/Fragmentation-Project/SRDP_data/issues) with the title: "Orgs: evidence found of ORGANISATION starting in YEAR".
+
+4.    Add your Nexis Uni search string into the comments section.  
+
+5.    Add `kgcunnin` as an assignee.
+
+## Development
+
+### Quick links
+
+`r fa("laptop")`   [Collection app Github repository](https://github.com/Fragmentation-Project/SRDP_demands_app)
+
+
