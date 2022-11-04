@@ -10,14 +10,14 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Datasets"
-        file: /datasets/index.qmd
+        file: datasets/index.qmd
 
     sidebar:
       - title: "Datasets"
         background: light
         contents:
             - text: "Demands"
-              file: /datasets/demands.qmd
+              file: datasets/demands.qmd
 
 format:
   html:
