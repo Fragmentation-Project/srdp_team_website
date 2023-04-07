@@ -1,0 +1,39 @@
+---
+title: "Concessions"
+page-layout: full
+---
+
+```{r, include = FALSE}
+library(fontawesome)
+```
+
+## Overview
+
+This dataset describes each concession made by the government being challenged to the self-determination group. 
+
+:::: {.columns}
+
+::: {.column width="30%"}
+### `r fa("database")`   Latest dataset
+
+[Data provided to 2020.](https://docs.google.com/spreadsheets/d/1YAr28ZNzJx2IYIw6fomA-kiaHyybEiHYIUWSh6J2c24/edit?usp=sharing) 
+:::
+
+::: {.column width="30%"}
+### `r fa("glasses")`   Unit
+
+Group - year. 
+:::
+
+::: {.column width="30%"}
+### `r fa("slack")`   Slack channel
+
+For related [discussions or questions](https://fragprojectco-xiy4179.slack.com/archives/C01B4KWQV2A). 
+:::
+
+::::
+
+## Data collection
+
+Manual data collection process. 
+

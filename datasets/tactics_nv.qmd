@@ -1,0 +1,39 @@
+---
+title: "Tactics, non-violent"
+page-layout: full
+---
+
+```{r, include = FALSE}
+library(fontawesome)
+```
+
+## Overview
+
+This dataset describes each self-determination organization's use of non-violent tactics in each year. Non-violent tactics identified are: economic non-cooperation; protests or demonstrations; non-violent intervention; social non-cooperation; and political non-cooperation. We also identify instances of institutional participation.  
+
+:::: {.columns}
+
+::: {.column width="30%"}
+### `r fa("database")`   Latest dataset
+
+[Data provided to 2020.](https://docs.google.com/spreadsheets/d/1E-eHamPH-a9nKyWrKRtjPK2vBaY119SA-ai2lYTH980/edit?usp=sharing) 
+:::
+
+::: {.column width="30%"}
+### `r fa("glasses")`   Unit
+
+Organization - year. 
+:::
+
+::: {.column width="30%"}
+### `r fa("slack")`   Slack channel
+
+For related [discussions or questions](https://fragprojectco-xiy4179.slack.com/archives/C030RG3FZU6). 
+:::
+
+::::
+
+## Data collection
+
+Manual data collection process. 
+

@@ -1,0 +1,39 @@
+---
+title: "Tactics, violent"
+page-layout: full
+---
+
+```{r, include = FALSE}
+library(fontawesome)
+```
+
+## Overview
+
+This dataset describes the target of each self-determination organization's use of violent tactics. The targets tracked are: the state; other SD organizations; in-group individuals; and out-group individuals. We also identify whether the organization targeted these groups fatally. 
+
+:::: {.columns}
+
+::: {.column width="30%"}
+### `r fa("database")`   Latest dataset
+
+[Data provided to 2020.](https://docs.google.com/spreadsheets/d/1HGsqlNm94AY6tdnD5ix7-LDaJkscU92V1c8ywhj3fCk/edit?usp=sharing) 
+:::
+
+::: {.column width="30%"}
+### `r fa("glasses")`   Unit
+
+Organization - year. 
+:::
+
+::: {.column width="30%"}
+### `r fa("slack")`   Slack channel
+
+For related [discussions or questions](https://fragprojectco-xiy4179.slack.com/archives/C030V846LCD). 
+:::
+
+::::
+
+## Data collection
+
+Manual data collection process. 
+

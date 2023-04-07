@@ -1,0 +1,45 @@
+---
+title: "Groups"
+page-layout: full
+---
+
+```{r, include = FALSE}
+library(fontawesome)
+```
+
+## Overview
+
+This dataset provides all known SD groups, the country in which they predominantly operate, and their start and (if applicable) end years. 
+
+:::: {.columns}
+
+::: {.column width="30%"}
+### `r fa("database")`   Latest dataset
+
+[Data provided to 2020.](https://docs.google.com/spreadsheets/d/1gsHZFrBu4PUY4qT-ggjvqnpSMQKz87Hf7FJdIbuN79E/edit?usp=sharing) 
+:::
+
+::: {.column width="30%"}
+### `r fa("glasses")`   Unit
+
+Group. 
+:::
+
+::: {.column width="30%"}
+### `r fa("slack")`   Slack channel
+
+For related [discussions or questions](https://fragprojectco-xiy4179.slack.com/archives/C031AP7NW4R). 
+:::
+
+::::
+
+## Data collection
+
+All groups and the countries in which they predominently operate were identified in K. Cunningham's [*Inside the Politics of Self-Determination*](http://www.kathleengallaghercunningham.com/research.html).
+
+A group's start date is set to the first identified as the highest of either:
+
+1. The start date for any of its composite organizations; or, 
+2. The first year in the dataset: 1960. 
+
+A group's end date is set to the last identified year in which one of their composite organizations was identified as active. 

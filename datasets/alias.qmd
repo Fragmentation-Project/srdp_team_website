@@ -1,0 +1,38 @@
+---
+title: "Organization aliases"
+page-layout: full
+---
+
+```{r, include = FALSE}
+library(fontawesome)
+```
+
+## Overview
+
+This dataset provides all known aliases for each identified SD organizations. This dataset allows us to search for, and capture, all report or articles related to the organization.  
+
+:::: {.columns}
+
+::: {.column width="30%"}
+### `r fa("database")`   Latest dataset
+
+[Data provided to 2023.](https://docs.google.com/spreadsheets/d/1hV6iH5F0UCztsC80VHAligsknwqvRs7oDBjSh0LeKg8/edit#gid=0) 
+:::
+
+::: {.column width="30%"}
+### `r fa("glasses")`   Unit
+
+Organization 
+:::
+
+::: {.column width="30%"}
+### `r fa("slack")`   Slack channel
+
+For related [discussions or questions](https://fragprojectco-xiy4179.slack.com/archives/C030V7SK8PP). 
+:::
+
+::::
+
+## Data collection
+
+All organization aliases are identified through the SD demands coding process. 

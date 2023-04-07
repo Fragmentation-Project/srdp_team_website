@@ -1,0 +1,42 @@
+---
+title: "Organizations"
+page-layout: full
+---
+
+```{r, include = FALSE}
+library(fontawesome)
+```
+
+## Overview
+
+This dataset provides all known SD organizations, their parent group, and their start and (if applicable) end years. 
+
+:::: {.columns}
+
+::: {.column width="30%"}
+### `r fa("database")`   Latest dataset
+
+[Data provided to 2020.](https://docs.google.com/spreadsheets/d/1GoJBH8fQg2sSaDvGo2FJZVLNFIpEX7vxITGf9fP6mOU/edit?usp=sharing) 
+:::
+
+::: {.column width="30%"}
+### `r fa("glasses")`   Unit
+
+Organization 
+:::
+
+::: {.column width="30%"}
+### `r fa("slack")`   Slack channel
+
+For related [discussions or questions](https://fragprojectco-xiy4179.slack.com/archives/C030Y502A02). 
+:::
+
+::::
+
+## Data collection
+
+All organizations are identified through the SD demands coding process. 
+
+An organization's start date is set to the first identified demand they made.
+
+An organization's end date is set to the year in which they explicitly broke up or ceased operating, or three years following their last identified SD demand.

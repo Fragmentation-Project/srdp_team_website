@@ -4,7 +4,7 @@
     "href": "datasets/demands.html#data-collection",
     "title": "Demands",
     "section": "Data collection",
-    "text": "Data collection\n\nQuick links\n   Dataset (in progress)\n   Collection app\n   To do list\n   Slack channel\n\n\nProcess\n\nOpen the to do list and see which organisations and years have been assigned to you.\nOpen the data collection app and filter for your organisation.\nIn Nexis Uni search for the following (adjusted for your organisation):\n\n\n(organisation name OR alias) AND country AND (demand OR “self determination” OR independen* OR separat* OR secession OR secede OR autonom* OR federal*)\n\n\nUsing Nexis Uni’s sidebar, filter the timeline for your year of interest.1\n\n\nIdentify relevant news articles to read for further detail.\nIdentify demands made by the SD organisation. You need to find evidence that the organisation itself made a demand that falls into one of our broad categories. It is not sufficient for the news article to describe the organisation as separatist.\nOnce you identify a demand made by the SD organisation, head back to the data collection app.\nCheck whether the demand is already listed.\n\nIf yes:\n\nAnd the information is correct:\n\nUpdate the to do list to mark that organisation-year as done.\n\nAnd the information is incorrect:\n\nClick the green + button to add more information.\nAre you editing a previously coded demand? Yes.\nID of demand to be edited. Located in the demand table above. Copy and paste it into this box.\n\n\nIf no:\n\nClick the green + button to add more information.\nAre you editing a previously coded demand? No.\n\n\nComplete the form:\n\nDemand. Select the correct demand type from the drop-down menu. You can see a definition of each demand type next to the box.\nYear demanded. This defaults to the start year for the SD organisation listed in the SRDP database. Change it, if needed.\nSource. Add the Nexis Uni permlink from the article that lists the demand.\nGo back to Nexis Uni and search for your organisation and the specific demand they made. Remove the timeline filter.\nYear rescinded. Identify the year that the SD organisation rescinded the demand, if applicable. There are two scenarios under which this occurs:\n\nThe SD organisation explicitly rescinds the demand. This may occur as part of a deal with the government. Add the year in which the demand was rescinded.\nThe SD organisation does not demand that concession for two consecutive years. Add the year after the demand was last made.\n\nSource. Add the Nexis Uni permlink from the article that lists the demand as being rescinded or where the demand was last mentioned. Leave blank if the SD organisation has not rescinded the demand.\nDescription. Provide a brief description of the demand made by the SD organisation.\nClick submit.\nUpdate the to do list to mark this organisation-year as done.\n\n\n\n\nTroubleshooting\nIf you cannot find news articles mentioning the SD organisation in the year it is listed as having started:\n\nCreate an issue with the title: “Orgs: no evidence found of ORGANISATION until YEAR”.\nAdd your Nexis Uni search string into the comments section.\nAdd kgcunnin as an assignee.\n\nIf you find news articles mentioning the SD organisation’s demands in years earlier than they are currently listed as having started:\n\nComplete the demands form setting the year to the earliest year you can (the year the organisation is listed in SRDP as having started).\nIn the description, add a note that the demands were made earlier and add the year.\nCreate an issue with the title: “Orgs: evidence found of ORGANISATION starting in YEAR”.\nAdd your Nexis Uni search string into the comments section.\nAdd kgcunnin as an assignee."
+    "text": "Data collection\nManual data collection process."
   },
   {
     "objectID": "datasets/demands.html#development",
@@ -16,9 +16,9 @@
   {
     "objectID": "datasets/index.html",
     "href": "datasets/index.html",
-    "title": "Datasets",
+    "title": "Overview",
     "section": "",
-    "text": "Footnotes\n\n\nNote: this filters your results for articles that were published in that year. It is possible that an SD organisation’s demands will be reported in later years. Use your discretion with this filter. It is designed to make this task more manageable.↩︎"
+    "text": "SRDP produces seven different datasets that are connected."
   },
   {
     "objectID": "index.html",
@@ -26,5 +26,96 @@
     "title": "Strategies of Resistence Data Project",
     "section": "",
     "text": "Strategies of Resistance Data Project (SRDP) is a global dataset on organizational behavior in self-determination disputes. It is actor-focused and spans periods of relative peace and violence in self-determination conflicts. By linking tactics to specific actors in broader campaigns for political change, we can better understand how these struggles unfold over time, and the conditions under which organizations use conventional politics, violent tactics, nonviolent tactics, or some combination of these."
+  },
+  {
+    "objectID": "datasets/demands.html",
+    "href": "datasets/demands.html",
+    "title": "Demands",
+    "section": "",
+    "text": "This dataset describes each self-determination group’s specific SD-related demands made. It forms the backbone of the SRDP dataset: if an organization is not making SD demands, it is considered inactive. If an organization is inactive for three or more years, it exits the dataset. Because groups consist of organizations, a group’s existence is also defined from these demands.\n\n\n\n\nData provided to 2005.\n\n\n\n\nOrganization - year.\n\n\n\n\nFor related discussions or questions."
+  },
+  {
+    "objectID": "datasets/groups.html",
+    "href": "datasets/groups.html",
+    "title": "Groups",
+    "section": "",
+    "text": "This dataset provides all known SD groups, the country in which they predominantly operate, and their start and (if applicable) end years.\n\n\n\n\nData provided to 2020.\n\n\n\n\nGroup.\n\n\n\n\nFor related discussions or questions."
+  },
+  {
+    "objectID": "datasets/groups.html#data-collection",
+    "href": "datasets/groups.html#data-collection",
+    "title": "Groups",
+    "section": "Data collection",
+    "text": "Data collection\nAll groups and the countries in which they predominently operate were identified in K. Cunningham’s Inside the Politics of Self-Determination.\nA group’s start date is set to the first identified as the highest of either:\n\nThe start date for any of its composite organizations; or,\nThe first year in the dataset: 1960.\n\nA group’s end date is set to the last identified year in which one of their composite organizations was identified as active."
+  },
+  {
+    "objectID": "datasets/orgs.html",
+    "href": "datasets/orgs.html",
+    "title": "Organizations",
+    "section": "",
+    "text": "This dataset provides all known SD organizations, their parent group, and their start and (if applicable) end years.\n\n\n\n\nData provided to 2020.\n\n\n\n\nOrganization\n\n\n\n\nFor related discussions or questions."
+  },
+  {
+    "objectID": "datasets/orgs.html#data-collection",
+    "href": "datasets/orgs.html#data-collection",
+    "title": "Organizations",
+    "section": "Data collection",
+    "text": "Data collection\nAll organizations are identified through the SD demands coding process.\nAn organization’s start date is set to the first identified demand they made.\nAn organization’s end date is set to the year in which they explicitly broke up or ceased operating, or three years following their last identified SD demand."
+  },
+  {
+    "objectID": "datasets/alias.html",
+    "href": "datasets/alias.html",
+    "title": "Organization aliases",
+    "section": "",
+    "text": "This dataset provides all known aliases for each identified SD organizations. This dataset allows us to search for, and capture, all report or articles related to the organization.\n\n\n\n\nData provided to 2023.\n\n\n\n\nOrganization\n\n\n\n\nFor related discussions or questions."
+  },
+  {
+    "objectID": "datasets/alias.html#data-collection",
+    "href": "datasets/alias.html#data-collection",
+    "title": "Organization aliases",
+    "section": "Data collection",
+    "text": "Data collection\nAll organization aliases are identified through the SD demands coding process."
+  },
+  {
+    "objectID": "datasets/concessions.html",
+    "href": "datasets/concessions.html",
+    "title": "Concessions",
+    "section": "",
+    "text": "This dataset describes each concession made by the government being challenged to the self-determination group.\n\n\n\n\nData provided to 2020.\n\n\n\n\nGroup - year.\n\n\n\n\nFor related discussions or questions."
+  },
+  {
+    "objectID": "datasets/concessions.html#data-collection",
+    "href": "datasets/concessions.html#data-collection",
+    "title": "Concessions",
+    "section": "Data collection",
+    "text": "Data collection\nManual data collection process."
+  },
+  {
+    "objectID": "datasets/tactics_nv.html",
+    "href": "datasets/tactics_nv.html",
+    "title": "Tactics, non-violent",
+    "section": "",
+    "text": "This dataset describes each self-determination organization’s use of non-violent tactics in each year. Non-violent tactics identified are: economic non-cooperation; protests or demonstrations; non-violent intervention; social non-cooperation; and political non-cooperation. We also identify instances of institutional participation.\n\n\n\n\nData provided to 2020.\n\n\n\n\nOrganization - year.\n\n\n\n\nFor related discussions or questions."
+  },
+  {
+    "objectID": "datasets/tactics_nv.html#data-collection",
+    "href": "datasets/tactics_nv.html#data-collection",
+    "title": "Tactics, non-violent",
+    "section": "Data collection",
+    "text": "Data collection\nManual data collection process."
+  },
+  {
+    "objectID": "datasets/tactics_v.html",
+    "href": "datasets/tactics_v.html",
+    "title": "Tactics, violent",
+    "section": "",
+    "text": "This dataset describes the target of each self-determination organization’s use of violent tactics. The targets tracked are: the state; other SD organizations; in-group individuals; and out-group individuals. We also identify whether the organization targeted these groups fatally.\n\n\n\n\nData provided to 2020.\n\n\n\n\nOrganization - year.\n\n\n\n\nFor related discussions or questions."
+  },
+  {
+    "objectID": "datasets/tactics_v.html#data-collection",
+    "href": "datasets/tactics_v.html#data-collection",
+    "title": "Tactics, violent",
+    "section": "Data collection",
+    "text": "Data collection\nManual data collection process."
   }
 ]

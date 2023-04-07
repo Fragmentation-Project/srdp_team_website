@@ -8,19 +8,28 @@ website:
     pinned: true
     right:
       - text: "Home"
-        file: index.qmd
+        href: index.qmd
       - text: "Datasets"
-        file: datasets/index.qmd
+        href: datasets/index.qmd
+      - icon: github
+        href: https://github.com/Fragmentation-Project
+        aria-label: GitHub
+      - icon: slack
+        href: https://join.slack.com/t/fragprojectco-xiy4179/shared_invite/zt-1t2pqnzgw-GFNHWim1Wa0U2GcJZwXTFA
+        aria-label: Slack
 
-    sidebar:
-      - id: datasets
-        title: "Datasets"
-        style: "docked"
-        background: light
-        collapse-level: 2
-        contents:
-            - datasets/index.qmd
-            - datasets/demands.qmd
+  sidebar:
+    - title: "Datasets"
+      style: "docked"
+      contents:
+        - datasets/index.qmd
+        - datasets/groups.qmd
+        - datasets/orgs.qmd
+        - datasets/demands.qmd
+        - datasets/concessions.qmd
+        - datasets/tactics_nv.qmd
+        - datasets/tactics_v.qmd
+        - datasets/alias.qmd
 
 format:
   html:
